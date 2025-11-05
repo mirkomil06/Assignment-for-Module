@@ -1,0 +1,1 @@
+Prefiltering with a low-pass (e.g., Gaussian) before downsampling attenuates high-frequency content above the new Nyquist limit (half the post-downsample sampling rate). Without this, high frequencies fold into lower frequencies (aliasing), producing moiré and jagged artifacts. Thus, low-pass prefiltering enforces the sampling theorem and prevents aliasing.
